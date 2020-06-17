@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD835"
+    tools:context=".SnapList">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/l"
+        android:id="@+id/image"
+        android:background="@drawable/back"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/back"
+        android:textSize="28dp"
+        android:hint="Message.."
+        android:id="@+id/message"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_below="@id/message"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/next"
+        android:text="NEXT"
+        android:textSize="28dp"
+        android:padding="10dp"/>
+
+
+</RelativeLayout>

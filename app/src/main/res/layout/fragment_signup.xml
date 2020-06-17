@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:background="#EDCD3D"
+    tools:context=".LoginFragment">
+
+
+    <EditText
+        android:id="@+id/signEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/back"
+        android:gravity="bottom"
+        android:hint="Email"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/signPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/signEmail"
+        android:layout_margin="30dp"
+        android:background="@drawable/back"
+        android:gravity="bottom"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="28dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/signPassword"
+        android:layout_margin="18dp"
+        android:background="@drawable/back"
+        android:text="SIGN UP"
+        android:id="@+id/signButton"
+        android:textSize="22dp" />
+
+</RelativeLayout>
